@@ -1,0 +1,3413 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook source-build='2020.1.2 (20201.20.0326.1623)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Demograpics_modified (Dataset_demographic)' inline='true' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataset_demographic' name='excel-direct.17fpm0v1aonips12oaerg1ox7jlk'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='/Users/yang/Desktop/INFO project/Dataset_demographic.xlsx' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.17fpm0v1aonips12oaerg1ox7jlk' name='Demograpics_modified' table='[Demograpics_modified$]' type='table'>
+          <columns gridOrigin='A1:DF4:no:A1:DF4:1' header='yes' lost='0' outcome='1' processed='313'>
+            <column datatype='string' name='0' ordinal='0' />
+            <column datatype='integer' name='Population - 2020' ordinal='1' />
+            <column datatype='real' name='Female Population' ordinal='2' />
+            <column datatype='real' name='Male Population' ordinal='3' />
+            <column datatype='real' name='Median Age' ordinal='4' />
+            <column datatype='integer' name='Population - 2010' ordinal='5' />
+            <column datatype='integer' name='Population - 2000' ordinal='6' />
+            <column datatype='integer' name='Population - 1990' ordinal='7' />
+            <column datatype='real' name='Population, 2000 to Now' ordinal='8' />
+            <column datatype='real' name='Popopulation, 1990 to Now' ordinal='9' />
+            <column datatype='real' name='Population Density' ordinal='10' />
+            <column datatype='real' name='Land Area' ordinal='11' />
+            <column datatype='real' name='Age 0 to 4' ordinal='12' />
+            <column datatype='real' name='Age 5 to 9' ordinal='13' />
+            <column datatype='real' name='Age 10 to 14' ordinal='14' />
+            <column datatype='real' name='Age 15 to 17' ordinal='15' />
+            <column datatype='real' name='Age 18 to 20' ordinal='16' />
+            <column datatype='real' name='Age 21 to 24' ordinal='17' />
+            <column datatype='real' name='Age 25 to 34' ordinal='18' />
+            <column datatype='real' name='Age 35 to 44' ordinal='19' />
+            <column datatype='real' name='Age 45 to 54' ordinal='20' />
+            <column datatype='real' name='Age 55 to 59' ordinal='21' />
+            <column datatype='real' name='Age 60 to 64' ordinal='22' />
+            <column datatype='real' name='Age 65 to 74' ordinal='23' />
+            <column datatype='real' name='Age 75 to 84' ordinal='24' />
+            <column datatype='real' name='Age 85 and over' ordinal='25' />
+            <column datatype='real' name='White' ordinal='26' />
+            <column datatype='real' name='Black' ordinal='27' />
+            <column datatype='real' name='Asian' ordinal='28' />
+            <column datatype='real' name='Native American' ordinal='29' />
+            <column datatype='real' name='Hawaiian, Pacific Islander' ordinal='30' />
+            <column datatype='real' name='Other' ordinal='31' />
+            <column datatype='real' name='Two or More Races' ordinal='32' />
+            <column datatype='real' name='Hispanic' ordinal='33' />
+            <column datatype='real' name='Married Population' ordinal='34' />
+            <column datatype='real' name='Currently Married' ordinal='35' />
+            <column datatype='real' name='Married but Separated' ordinal='36' />
+            <column datatype='real' name='Single Population' ordinal='37' />
+            <column datatype='real' name='Never Married' ordinal='38' />
+            <column datatype='real' name='Divorced' ordinal='39' />
+            <column datatype='real' name='Widowed' ordinal='40' />
+            <column datatype='real' name='Household Size' ordinal='41' />
+            <column datatype='integer' name='Households' ordinal='42' />
+            <column datatype='real' name='Family Households' ordinal='43' />
+            <column datatype='real' name='Married couple, w/children' ordinal='44' />
+            <column datatype='real' name='Married couple, no children' ordinal='45' />
+            <column datatype='real' name='Non Family Households' ordinal='46' />
+            <column datatype='real' name='Single householder, w/children' ordinal='47' />
+            <column datatype='real' name='Single householder, no children' ordinal='48' />
+            <column datatype='integer' name='Population estimates, July 1, 2019,  (V2019)' ordinal='49' />
+            <column datatype='integer' name='Population estimates base, April 1, 2010,  (V2019)' ordinal='50' />
+            <column datatype='real' name='Population, percent change - April 1, 2010 (estimates base) to July 1, 2019,  (V2019)' ordinal='51' />
+            <column datatype='integer' name='Population, Census, April 1, 2010' ordinal='52' />
+            <column datatype='real' name='Persons under 5 years, percent' ordinal='53' />
+            <column datatype='real' name='Persons under 18 years, percent' ordinal='54' />
+            <column datatype='real' name='Persons 65 years and over, percent' ordinal='55' />
+            <column datatype='real' name='Female persons, percent' ordinal='56' />
+            <column datatype='real' name='White alone, percent' ordinal='57' />
+            <column datatype='real' name='Black or African American alone, percent' ordinal='58' />
+            <column datatype='real' name='American Indian and Alaska Native alone, percent' ordinal='59' />
+            <column datatype='real' name='Asian alone, percent' ordinal='60' />
+            <column datatype='real' name='Native Hawaiian and Other Pacific Islander alone, percent' ordinal='61' />
+            <column datatype='real' name='Two or More Races, percent' ordinal='62' />
+            <column datatype='real' name='Hispanic or Latino, percent' ordinal='63' />
+            <column datatype='real' name='White alone, not Hispanic or Latino, percent' ordinal='64' />
+            <column datatype='real' name='Veterans, 2014-2018' ordinal='65' />
+            <column datatype='real' name='Foreign born persons, percent, 2014-2018' ordinal='66' />
+            <column datatype='string' name='Housing units,  July 1, 2019,  (V2019)' ordinal='67' />
+            <column datatype='real' name='Owner-occupied housing unit rate, 2014-2018' ordinal='68' />
+            <column datatype='integer' name='Median value of owner-occupied housing units, 2014-2018' ordinal='69' />
+            <column datatype='integer' name='Median selected monthly owner costs -with a mortgage, 2014-2018' ordinal='70' />
+            <column datatype='integer' name='Median selected monthly owner costs -without a mortgage, 2014-2018' ordinal='71' />
+            <column datatype='integer' name='Median gross rent, 2014-2018' ordinal='72' />
+            <column datatype='string' name='Building permits, 2019' ordinal='73' />
+            <column datatype='integer' name='Households, 2014-2018' ordinal='74' />
+            <column datatype='real' name='Persons per household, 2014-2018' ordinal='75' />
+            <column datatype='real' name='Living in same house 1 year ago, percent of persons age 1 year+, 2014-2018' ordinal='76' />
+            <column datatype='real' name='Language other than English spoken at home, percent of persons age 5 years+, 2014-2018' ordinal='77' />
+            <column datatype='real' name='Households with a computer, percent, 2014-2018' ordinal='78' />
+            <column datatype='real' name='Households with a broadband Internet subscription, percent, 2014-2018' ordinal='79' />
+            <column datatype='real' name='High school graduate or higher, percent of persons age 25 years+, 2014-2018' ordinal='80' />
+            <column datatype='real' name='Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018' ordinal='81' />
+            <column datatype='real' name='With a disability, under age 65 years, percent, 2014-2018' ordinal='82' />
+            <column datatype='real' name='Persons  without health insurance, under age 65 years, percent' ordinal='83' />
+            <column datatype='real' name='In civilian labor force, total, percent of population age 16 years+, 2014-2018' ordinal='84' />
+            <column datatype='real' name='In civilian labor force, female, percent of population age 16 years+, 2014-2018' ordinal='85' />
+            <column datatype='integer' name='Total accommodation and food services sales, 2012 ($1,000)' ordinal='86' />
+            <column datatype='integer' name='Total health care and social assistance receipts/revenue, 2012 ($1,000)' ordinal='87' />
+            <column datatype='integer' name='Total manufacturers shipments, 2012 ($1,000)' ordinal='88' />
+            <column datatype='integer' name='Total merchant wholesaler sales, 2012 ($1,000)' ordinal='89' />
+            <column datatype='integer' name='Total retail sales, 2012 ($1,000)' ordinal='90' />
+            <column datatype='integer' name='Total retail sales per capita, 2012' ordinal='91' />
+            <column datatype='real' name='Mean travel time to work (minutes), workers age 16 years+, 2014-2018' ordinal='92' />
+            <column datatype='integer' name='Median household income (in 2018 dollars), 2014-2018' ordinal='93' />
+            <column datatype='integer' name='Per capita income in past 12 months (in 2018 dollars), 2014-2018' ordinal='94' />
+            <column datatype='real' name='Persons in poverty, percent' ordinal='95' />
+            <column datatype='string' name='Total employer establishments, 2018' ordinal='96' />
+            <column datatype='string' name='Total employment, 2018' ordinal='97' />
+            <column datatype='string' name='Total annual payroll, 2018 ($1,000)' ordinal='98' />
+            <column datatype='string' name='Total employment, percent change, 2017-2018' ordinal='99' />
+            <column datatype='string' name='Total nonemployer establishments, 2018' ordinal='100' />
+            <column datatype='real' name='All firms, 2012' ordinal='101' />
+            <column datatype='real' name='Men-owned firms, 2012' ordinal='102' />
+            <column datatype='real' name='Women-owned firms, 2012' ordinal='103' />
+            <column datatype='real' name='Minority-owned firms, 2012' ordinal='104' />
+            <column datatype='real' name='Nonminority-owned firms, 2012' ordinal='105' />
+            <column datatype='real' name='Veteran-owned firms, 2012' ordinal='106' />
+            <column datatype='real' name='Nonveteran-owned firms, 2012' ordinal='107' />
+            <column datatype='real' name='Population per square mile, 2010' ordinal='108' />
+            <column datatype='real' name='Land area in square miles, 2010' ordinal='109' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>0</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[0]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>0</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population - 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population - 2020]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population - 2020</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Female Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Female Population]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Female Population</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Male Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Male Population]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Male Population</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median Age</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Median Age]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Median Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population - 2010</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population - 2010]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population - 2010</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population - 2000</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population - 2000]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population - 2000</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population - 1990</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population - 1990]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population - 1990</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population, 2000 to Now</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population, 2000 to Now]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population, 2000 to Now</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Popopulation, 1990 to Now</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Popopulation, 1990 to Now]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Popopulation, 1990 to Now</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population Density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population Density]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population Density</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land Area</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land Area]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Land Area</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 0 to 4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 0 to 4]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 0 to 4</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 5 to 9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 5 to 9]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 5 to 9</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 10 to 14</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 10 to 14]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 10 to 14</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 15 to 17</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 15 to 17]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 15 to 17</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 18 to 20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 18 to 20]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 18 to 20</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 21 to 24</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 21 to 24]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 21 to 24</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 25 to 34</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 25 to 34]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 25 to 34</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 35 to 44</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 35 to 44]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 35 to 44</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 45 to 54</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 45 to 54]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 45 to 54</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 55 to 59</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 55 to 59]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 55 to 59</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 60 to 64</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 60 to 64]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 60 to 64</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 65 to 74</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 65 to 74]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 65 to 74</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 75 to 84</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 75 to 84]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 75 to 84</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age 85 and over</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Age 85 and over]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Age 85 and over</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>White</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Black</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asian</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Asian]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Asian</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Native American</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Native American]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Native American</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hawaiian, Pacific Islander</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hawaiian, Pacific Islander]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Hawaiian, Pacific Islander</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Other</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Two or More Races</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Two or More Races]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Two or More Races</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hispanic</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hispanic]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Hispanic</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Married Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Married Population]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Married Population</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Currently Married</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Currently Married]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Currently Married</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Married but Separated</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Married but Separated]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Married but Separated</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Single Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Single Population]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Single Population</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Never Married</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Never Married]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Never Married</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Divorced</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Divorced]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Divorced</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Widowed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Widowed]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Widowed</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Household Size</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Household Size]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Household Size</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Households]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Households</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family Households</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Family Households]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Family Households</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Married couple, w/children</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Married couple, w/children]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Married couple, w/children</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Married couple, no children</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Married couple, no children]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Married couple, no children</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Non Family Households</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Non Family Households]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Non Family Households</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Single householder, w/children</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Single householder, w/children]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Single householder, w/children</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Single householder, no children</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Single householder, no children]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Single householder, no children</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population estimates, July 1, 2019,  (V2019)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population estimates, July 1, 2019,  (V2019)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population estimates, July 1, 2019,  (V2019)</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population estimates base, April 1, 2010,  (V2019)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population estimates base, April 1, 2010,  (V2019)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population estimates base, April 1, 2010,  (V2019)</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population, percent change - April 1, 2010 (estimates base) to July 1, 2019,  (V2019)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population, percent change - April 1, 2010 (estimates base) to July 1, 2019,  (V2019)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population, percent change - April 1, 2010 (estimates base) to July 1, 2019,  (V2019)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population, Census, April 1, 2010</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population, Census, April 1, 2010]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population, Census, April 1, 2010</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons under 5 years, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons under 5 years, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Persons under 5 years, percent</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons under 18 years, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons under 18 years, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Persons under 18 years, percent</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons 65 years and over, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons 65 years and over, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Persons 65 years and over, percent</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Female persons, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Female persons, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Female persons, percent</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White alone, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White alone, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>White alone, percent</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black or African American alone, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black or African American alone, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Black or African American alone, percent</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>American Indian and Alaska Native alone, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[American Indian and Alaska Native alone, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>American Indian and Alaska Native alone, percent</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asian alone, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Asian alone, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Asian alone, percent</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Native Hawaiian and Other Pacific Islander alone, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Native Hawaiian and Other Pacific Islander alone, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Native Hawaiian and Other Pacific Islander alone, percent</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Two or More Races, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Two or More Races, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Two or More Races, percent</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hispanic or Latino, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hispanic or Latino, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Hispanic or Latino, percent</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White alone, not Hispanic or Latino, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White alone, not Hispanic or Latino, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>White alone, not Hispanic or Latino, percent</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Veterans, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Veterans, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Veterans, 2014-2018</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign born persons, percent, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Foreign born persons, percent, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Foreign born persons, percent, 2014-2018</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Housing units,  July 1, 2019,  (V2019)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Housing units,  July 1, 2019,  (V2019)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Housing units,  July 1, 2019,  (V2019)</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner-occupied housing unit rate, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Owner-occupied housing unit rate, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Owner-occupied housing unit rate, 2014-2018</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median value of owner-occupied housing units, 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median value of owner-occupied housing units, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Median value of owner-occupied housing units, 2014-2018</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median selected monthly owner costs -with a mortgage, 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median selected monthly owner costs -with a mortgage, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Median selected monthly owner costs -with a mortgage, 2014-2018</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median selected monthly owner costs -without a mortgage, 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median selected monthly owner costs -without a mortgage, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Median selected monthly owner costs -without a mortgage, 2014-2018</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median gross rent, 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median gross rent, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Median gross rent, 2014-2018</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building permits, 2019</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Building permits, 2019]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Building permits, 2019</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households, 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Households, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Households, 2014-2018</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons per household, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons per household, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Persons per household, 2014-2018</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Living in same house 1 year ago, percent of persons age 1 year+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Living in same house 1 year ago, percent of persons age 1 year+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Living in same house 1 year ago, percent of persons age 1 year+, 2014-2018</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language other than English spoken at home, percent of persons age 5 years+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Language other than English spoken at home, percent of persons age 5 years+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Language other than English spoken at home, percent of persons age 5 years+, 2014-2018</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households with a computer, percent, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Households with a computer, percent, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Households with a computer, percent, 2014-2018</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households with a broadband Internet subscription, percent, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Households with a broadband Internet subscription, percent, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Households with a broadband Internet subscription, percent, 2014-2018</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High school graduate or higher, percent of persons age 25 years+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High school graduate or higher, percent of persons age 25 years+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>High school graduate or higher, percent of persons age 25 years+, 2014-2018</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>With a disability, under age 65 years, percent, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[With a disability, under age 65 years, percent, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>With a disability, under age 65 years, percent, 2014-2018</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons  without health insurance, under age 65 years, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons  without health insurance, under age 65 years, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Persons  without health insurance, under age 65 years, percent</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In civilian labor force, total, percent of population age 16 years+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[In civilian labor force, total, percent of population age 16 years+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>In civilian labor force, total, percent of population age 16 years+, 2014-2018</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In civilian labor force, female, percent of population age 16 years+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[In civilian labor force, female, percent of population age 16 years+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>In civilian labor force, female, percent of population age 16 years+, 2014-2018</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total accommodation and food services sales, 2012 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total accommodation and food services sales, 2012 ($1,000)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total accommodation and food services sales, 2012 ($1,000)</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total health care and social assistance receipts/revenue, 2012 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total health care and social assistance receipts/revenue, 2012 ($1,000)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total health care and social assistance receipts/revenue, 2012 ($1,000)</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total manufacturers shipments, 2012 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total manufacturers shipments, 2012 ($1,000)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total manufacturers shipments, 2012 ($1,000)</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total merchant wholesaler sales, 2012 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total merchant wholesaler sales, 2012 ($1,000)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total merchant wholesaler sales, 2012 ($1,000)</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total retail sales, 2012 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total retail sales, 2012 ($1,000)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total retail sales, 2012 ($1,000)</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total retail sales per capita, 2012</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total retail sales per capita, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total retail sales per capita, 2012</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean travel time to work (minutes), workers age 16 years+, 2014-2018</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean travel time to work (minutes), workers age 16 years+, 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Mean travel time to work (minutes), workers age 16 years+, 2014-2018</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median household income (in 2018 dollars), 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median household income (in 2018 dollars), 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Median household income (in 2018 dollars), 2014-2018</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per capita income in past 12 months (in 2018 dollars), 2014-2018</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Per capita income in past 12 months (in 2018 dollars), 2014-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Per capita income in past 12 months (in 2018 dollars), 2014-2018</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons in poverty, percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons in poverty, percent]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Persons in poverty, percent</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employer establishments, 2018</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total employer establishments, 2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total employer establishments, 2018</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employment, 2018</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total employment, 2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total employment, 2018</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total annual payroll, 2018 ($1,000)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total annual payroll, 2018 ($1,000)]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total annual payroll, 2018 ($1,000)</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employment, percent change, 2017-2018</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total employment, percent change, 2017-2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total employment, percent change, 2017-2018</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total nonemployer establishments, 2018</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Total nonemployer establishments, 2018]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Total nonemployer establishments, 2018</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[All firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>All firms, 2012</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Men-owned firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Men-owned firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Men-owned firms, 2012</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Women-owned firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Women-owned firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Women-owned firms, 2012</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minority-owned firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Minority-owned firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Minority-owned firms, 2012</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nonminority-owned firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nonminority-owned firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Nonminority-owned firms, 2012</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Veteran-owned firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Veteran-owned firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Veteran-owned firms, 2012</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nonveteran-owned firms, 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nonveteran-owned firms, 2012]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Nonveteran-owned firms, 2012</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population per square mile, 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population per square mile, 2010]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Population per square mile, 2010</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land area in square miles, 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land area in square miles, 2010]</local-name>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias>Land area in square miles, 2010</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Demograpics_modified]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:DF4:no:A1:DF4:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>313</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[0]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Age 0 to 4]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 10 to 14]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 15 to 17]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 18 to 20]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 21 to 24]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 25 to 34]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 35 to 44]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 45 to 54]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 5 to 9]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 55 to 59]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 60 to 64]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 65 to 74]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 75 to 84]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Age 85 and over]' role='measure' type='quantitative' />
+      <column datatype='real' name='[American Indian and Alaska Native alone, percent]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Asian]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Black]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Currently Married]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Divorced]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Female Population]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Hawaiian, Pacific Islander]' role='measure' type='quantitative' />
+      <column datatype='real' name='[High school graduate or higher, percent of persons age 25 years+, 2014-2018]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Hispanic]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Male Population]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Married but Separated]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Married couple, no children]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Married couple, w/children]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Native American]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Never Married]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='real' name='[Single householder, no children]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Single householder, w/children]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Two or More Races]' role='measure' type='quantitative' />
+      <column datatype='real' name='[White alone, not Hispanic or Latino, percent]' role='measure' type='quantitative' />
+      <column datatype='real' name='[White]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Widowed]' role='measure' type='quantitative' />
+      <column-instance column='[Age 0 to 4]' derivation='Attribute' name='[attr:Age 0 to 4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 10 to 14]' derivation='Attribute' name='[attr:Age 10 to 14:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 15 to 17]' derivation='Attribute' name='[attr:Age 15 to 17:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 18 to 20]' derivation='Attribute' name='[attr:Age 18 to 20:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 21 to 24]' derivation='Attribute' name='[attr:Age 21 to 24:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 25 to 34]' derivation='Attribute' name='[attr:Age 25 to 34:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 35 to 44]' derivation='Attribute' name='[attr:Age 35 to 44:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 45 to 54]' derivation='Attribute' name='[attr:Age 45 to 54:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 5 to 9]' derivation='Attribute' name='[attr:Age 5 to 9:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 55 to 59]' derivation='Attribute' name='[attr:Age 55 to 59:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 60 to 64]' derivation='Attribute' name='[attr:Age 60 to 64:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 65 to 74]' derivation='Attribute' name='[attr:Age 65 to 74:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 75 to 84]' derivation='Attribute' name='[attr:Age 75 to 84:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 85 and over]' derivation='Attribute' name='[attr:Age 85 and over:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[American Indian and Alaska Native alone, percent]' derivation='Attribute' name='[attr:American Indian and Alaska Native alone, percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Asian]' derivation='Attribute' name='[attr:Asian:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018]' derivation='Attribute' name='[attr:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Black]' derivation='Attribute' name='[attr:Black:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Female Population]' derivation='Attribute' name='[attr:Female Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[High school graduate or higher, percent of persons age 25 years+, 2014-2018]' derivation='Attribute' name='[attr:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hispanic]' derivation='Attribute' name='[attr:Hispanic:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Male Population]' derivation='Attribute' name='[attr:Male Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Native American]' derivation='Attribute' name='[attr:Native American:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Two or More Races]' derivation='Attribute' name='[attr:Two or More Races:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[White]' derivation='Attribute' name='[attr:White:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 0 to 4]' derivation='Avg' name='[avg:Age 0 to 4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 10 to 14]' derivation='Avg' name='[avg:Age 10 to 14:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 15 to 17]' derivation='Avg' name='[avg:Age 15 to 17:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 18 to 20]' derivation='Avg' name='[avg:Age 18 to 20:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 21 to 24]' derivation='Avg' name='[avg:Age 21 to 24:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 25 to 34]' derivation='Avg' name='[avg:Age 25 to 34:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 35 to 44]' derivation='Avg' name='[avg:Age 35 to 44:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 45 to 54]' derivation='Avg' name='[avg:Age 45 to 54:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 5 to 9]' derivation='Avg' name='[avg:Age 5 to 9:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 55 to 59]' derivation='Avg' name='[avg:Age 55 to 59:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 60 to 64]' derivation='Avg' name='[avg:Age 60 to 64:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 65 to 74]' derivation='Avg' name='[avg:Age 65 to 74:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 75 to 84]' derivation='Avg' name='[avg:Age 75 to 84:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 85 and over]' derivation='Avg' name='[avg:Age 85 and over:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[American Indian and Alaska Native alone, percent]' derivation='Avg' name='[avg:American Indian and Alaska Native alone, percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Asian]' derivation='Avg' name='[avg:Asian:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Black]' derivation='Avg' name='[avg:Black:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hispanic]' derivation='Avg' name='[avg:Hispanic:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Native American]' derivation='Avg' name='[avg:Native American:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Two or More Races]' derivation='Avg' name='[avg:Two or More Races:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[White]' derivation='Avg' name='[avg:White:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 0 to 4]' derivation='Count' name='[cnt:Age 0 to 4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 10 to 14]' derivation='Count' name='[cnt:Age 10 to 14:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 15 to 17]' derivation='Count' name='[cnt:Age 15 to 17:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 18 to 20]' derivation='Count' name='[cnt:Age 18 to 20:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 21 to 24]' derivation='Count' name='[cnt:Age 21 to 24:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 25 to 34]' derivation='Count' name='[cnt:Age 25 to 34:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 35 to 44]' derivation='Count' name='[cnt:Age 35 to 44:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 45 to 54]' derivation='Count' name='[cnt:Age 45 to 54:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 5 to 9]' derivation='Count' name='[cnt:Age 5 to 9:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 55 to 59]' derivation='Count' name='[cnt:Age 55 to 59:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 60 to 64]' derivation='Count' name='[cnt:Age 60 to 64:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 65 to 74]' derivation='Count' name='[cnt:Age 65 to 74:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 75 to 84]' derivation='Count' name='[cnt:Age 75 to 84:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 85 and over]' derivation='Count' name='[cnt:Age 85 and over:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Age 0 to 4]' derivation='Sum' name='[sum:Age 0 to 4:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 10 to 14]' derivation='Sum' name='[sum:Age 10 to 14:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 15 to 17]' derivation='Sum' name='[sum:Age 15 to 17:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 18 to 20]' derivation='Sum' name='[sum:Age 18 to 20:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 21 to 24]' derivation='Sum' name='[sum:Age 21 to 24:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 25 to 34]' derivation='Sum' name='[sum:Age 25 to 34:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 35 to 44]' derivation='Sum' name='[sum:Age 35 to 44:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 45 to 54]' derivation='Sum' name='[sum:Age 45 to 54:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 5 to 9]' derivation='Sum' name='[sum:Age 5 to 9:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 55 to 59]' derivation='Sum' name='[sum:Age 55 to 59:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 60 to 64]' derivation='Sum' name='[sum:Age 60 to 64:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 65 to 74]' derivation='Sum' name='[sum:Age 65 to 74:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 75 to 84]' derivation='Sum' name='[sum:Age 75 to 84:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Age 85 and over]' derivation='Sum' name='[sum:Age 85 and over:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[American Indian and Alaska Native alone, percent]' derivation='Sum' name='[sum:American Indian and Alaska Native alone, percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Asian]' derivation='Sum' name='[sum:Asian:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018]' derivation='Sum' name='[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Black]' derivation='Sum' name='[sum:Black:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Currently Married]' derivation='Sum' name='[sum:Currently Married:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Divorced]' derivation='Sum' name='[sum:Divorced:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Female Population]' derivation='Sum' name='[sum:Female Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hawaiian, Pacific Islander]' derivation='Sum' name='[sum:Hawaiian, Pacific Islander:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[High school graduate or higher, percent of persons age 25 years+, 2014-2018]' derivation='Sum' name='[sum:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hispanic]' derivation='Sum' name='[sum:Hispanic:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Male Population]' derivation='Sum' name='[sum:Male Population:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Married but Separated]' derivation='Sum' name='[sum:Married but Separated:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Married couple, no children]' derivation='Sum' name='[sum:Married couple, no children:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Married couple, w/children]' derivation='Sum' name='[sum:Married couple, w/children:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Native American]' derivation='Sum' name='[sum:Native American:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Never Married]' derivation='Sum' name='[sum:Never Married:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Single householder, no children]' derivation='Sum' name='[sum:Single householder, no children:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Single householder, w/children]' derivation='Sum' name='[sum:Single householder, w/children:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Two or More Races]' derivation='Sum' name='[sum:Two or More Races:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[White alone, not Hispanic or Latino, percent]' derivation='Sum' name='[sum:White alone, not Hispanic or Latino, percent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[White]' derivation='Sum' name='[sum:White:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Widowed]' derivation='Sum' name='[sum:Widowed:qk]' pivot='key' type='quantitative' />
+      <group caption='NY_LA' name='[NY_LA]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:0:nk]' member='&quot;Los Angeles&quot;' />
+          <groupfilter function='member' level='[none:0:nk]' member='&quot;New York&quot;' />
+        </groupfilter>
+      </group>
+      <folder name='Age' role='measures'>
+        <folder-item name='[Age 0 to 4]' type='field' />
+        <folder-item name='[Age 10 to 14]' type='field' />
+        <folder-item name='[Age 15 to 17]' type='field' />
+        <folder-item name='[Age 18 to 20]' type='field' />
+        <folder-item name='[Age 21 to 24]' type='field' />
+        <folder-item name='[Age 25 to 34]' type='field' />
+        <folder-item name='[Age 35 to 44]' type='field' />
+        <folder-item name='[Age 45 to 54]' type='field' />
+        <folder-item name='[Age 5 to 9]' type='field' />
+        <folder-item name='[Age 55 to 59]' type='field' />
+        <folder-item name='[Age 60 to 64]' type='field' />
+        <folder-item name='[Age 65 to 74]' type='field' />
+        <folder-item name='[Age 75 to 84]' type='field' />
+        <folder-item name='[Age 85 and over]' type='field' />
+      </folder>
+      <layout dim-ordering='alphabetic' dim-percentage='0.33275' group-percentage='0.0402802' measure-ordering='alphabetic' measure-percentage='0.62697' show-aliased-fields='true' show-structure='false' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 5 to 9:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 5 to 9:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 5 to 9:qk]&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 5 to 9:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 0 to 4:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:American Indian and Alaska Native alone, percent:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Female Population:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 0 to 4:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:American Indian and Alaska Native alone, percent:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 0 to 4:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 0 to 4:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:American Indian and Alaska Native alone, percent:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Currently Married:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Female Population:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married couple, no children:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 21 to 24:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Hispanic:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 21 to 24:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Hispanic:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 21 to 24:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 21 to 24:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Hispanic:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Never Married:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Hawaiian, Pacific Islander:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single householder, w/children:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Widowed:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 75 to 84:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 75 to 84:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 75 to 84:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 75 to 84:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 55 to 59:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 55 to 59:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 55 to 59:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 55 to 59:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 25 to 34:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 25 to 34:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 25 to 34:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 25 to 34:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 10 to 14:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 10 to 14:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 10 to 14:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 10 to 14:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Two or More Races:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Two or More Races:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Two or More Races:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 35 to 44:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 35 to 44:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 35 to 44:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 35 to 44:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 85 and over:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 85 and over:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 85 and over:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 85 and over:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 60 to 64:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Black:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 60 to 64:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Black:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 60 to 64:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 60 to 64:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Black:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married but Separated:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single householder, no children:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:White:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:White:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:White:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 45 to 54:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 45 to 54:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 45 to 54:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 45 to 54:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 15 to 17:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Asian:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Male Population:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 15 to 17:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Asian:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 15 to 17:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 15 to 17:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Asian:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Divorced:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Male Population:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married couple, w/children:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 65 to 74:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 65 to 74:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 65 to 74:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 65 to 74:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Native American:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Native American:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Native American:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:White alone, not Hispanic or Latino, percent:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 18 to 20:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[avg:Age 18 to 20:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[cnt:Age 18 to 20:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Age 18 to 20:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:0:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Los Angeles&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Age Demographic</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Age 0 to 4]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 10 to 14]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 15 to 17]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 18 to 20]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 21 to 24]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 25 to 34]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 35 to 44]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 45 to 54]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 5 to 9]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 55 to 59]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 60 to 64]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 65 to 74]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 75 to 84]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Age 85 and over]' role='measure' type='quantitative' />
+            <column-instance column='[Age 0 to 4]' derivation='Attribute' name='[attr:Age 0 to 4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 10 to 14]' derivation='Attribute' name='[attr:Age 10 to 14:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 15 to 17]' derivation='Attribute' name='[attr:Age 15 to 17:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 18 to 20]' derivation='Attribute' name='[attr:Age 18 to 20:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 21 to 24]' derivation='Attribute' name='[attr:Age 21 to 24:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 25 to 34]' derivation='Attribute' name='[attr:Age 25 to 34:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 35 to 44]' derivation='Attribute' name='[attr:Age 35 to 44:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 45 to 54]' derivation='Attribute' name='[attr:Age 45 to 54:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 5 to 9]' derivation='Attribute' name='[attr:Age 5 to 9:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 55 to 59]' derivation='Attribute' name='[attr:Age 55 to 59:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 60 to 64]' derivation='Attribute' name='[attr:Age 60 to 64:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 65 to 74]' derivation='Attribute' name='[attr:Age 65 to 74:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 75 to 84]' derivation='Attribute' name='[attr:Age 75 to 84:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Age 85 and over]' derivation='Attribute' name='[attr:Age 85 and over:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 0 to 4:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 10 to 14:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 15 to 17:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 18 to 20:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 21 to 24:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 25 to 34:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 35 to 44:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 45 to 54:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 5 to 9:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 55 to 59:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 60 to 64:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 65 to 74:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 75 to 84:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Age 85 and over:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[Multiple Values]</rows>
+        <cols>([federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk] / [federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{80A3C89A-4863-49B9-A6C7-A4D4E298189B}' />
+    </worksheet>
+    <worksheet name='Sheet 10'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Married Population]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Single Population]' role='measure' type='quantitative' />
+            <column-instance column='[Married Population]' derivation='Attribute' name='[attr:Married Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Single Population]' derivation='Attribute' name='[attr:Single Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Married Population]' derivation='Sum' name='[sum:Married Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Single Population]' derivation='Sum' name='[sum:Single Population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:0:nk]' member='&quot;Los Angeles&quot;' />
+              <groupfilter function='member' level='[none:0:nk]' member='&quot;New York&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]' />
+              <wedge-size column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Married Population:qk]' />
+              <size column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Single Population:qk]' />
+              <text column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single Population:qk]' />
+              <text column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married Population:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{53B91463-1073-4E0E-B4C5-7A017EDD16E8}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Race</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[American Indian and Alaska Native alone, percent]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Asian]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Black]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Hispanic]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Native American]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Two or More Races]' role='measure' type='quantitative' />
+            <column datatype='real' name='[White]' role='measure' type='quantitative' />
+            <column-instance column='[American Indian and Alaska Native alone, percent]' derivation='Attribute' name='[attr:American Indian and Alaska Native alone, percent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Asian]' derivation='Attribute' name='[attr:Asian:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Black]' derivation='Attribute' name='[attr:Black:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hispanic]' derivation='Attribute' name='[attr:Hispanic:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Native American]' derivation='Attribute' name='[attr:Native American:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Two or More Races]' derivation='Attribute' name='[attr:Two or More Races:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[White]' derivation='Attribute' name='[attr:White:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:American Indian and Alaska Native alone, percent:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Asian:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Black:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Hispanic:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:White:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Two or More Races:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Native American:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:American Indian and Alaska Native alone, percent:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Asian:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Black:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Hispanic:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:White:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Two or More Races:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Native American:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[Multiple Values]</rows>
+        <cols>([federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk] / [federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{94E0317A-42B1-48ED-AD7A-7CF5E934C04A}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Gender</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Female Population]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Male Population]' role='measure' type='quantitative' />
+            <column-instance column='[Female Population]' derivation='Attribute' name='[attr:Female Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Male Population]' derivation='Attribute' name='[attr:Male Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Female Population:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Male Population:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' value='78' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[Multiple Values]</rows>
+        <cols>([federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk] / [federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{4A8047C7-6E04-44A0-99EC-BA3D1E60AD31}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Marital Status</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Currently Married]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Divorced]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Married but Separated]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never Married]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Widowed]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Currently Married]' derivation='Sum' name='[sum:Currently Married:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Divorced]' derivation='Sum' name='[sum:Divorced:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Married but Separated]' derivation='Sum' name='[sum:Married but Separated:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never Married]' derivation='Sum' name='[sum:Never Married:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Widowed]' derivation='Sum' name='[sum:Widowed:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Currently Married:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Divorced:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married but Separated:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Never Married:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Widowed:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Currently Married:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Never Married:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Divorced:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Widowed:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married but Separated:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[Multiple Values]</rows>
+        <cols>([federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk] / [federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{796005DA-4F97-4EEE-A700-2DA618365992}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Married Population]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Married Population]' derivation='Sum' name='[sum:Married Population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married Population:qk]' />
+              <wedge-size column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married Population:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]</cols>
+      </table>
+      <simple-id uuid='{32B377A6-96D7-4EF9-BF6A-4B41E9DF5570}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Household Size</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Household Size]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Household Size]' derivation='Sum' name='[sum:Household Size:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Household Size:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Household Size:qk]</rows>
+        <cols>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]</cols>
+      </table>
+      <simple-id uuid='{064F012B-D359-47EB-B277-9181EF1FD286}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Household components</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Married couple, no children]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Married couple, w/children]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Single householder, no children]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Single householder, w/children]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Married couple, no children]' derivation='Sum' name='[sum:Married couple, no children:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Married couple, w/children]' derivation='Sum' name='[sum:Married couple, w/children:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Single householder, no children]' derivation='Sum' name='[sum:Single householder, no children:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Single householder, w/children]' derivation='Sum' name='[sum:Single householder, w/children:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married couple, no children:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married couple, w/children:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single householder, no children:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single householder, w/children:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single householder, no children:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Single householder, w/children:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married couple, w/children:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married couple, no children:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' value='79' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[Multiple Values]</rows>
+        <cols>([federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk] / [federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{8936E592-92BE-4A8A-BA7A-FAA9DFFEFBDB}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Education</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018]' role='measure' type='quantitative' />
+            <column datatype='real' name='[High school graduate or higher, percent of persons age 25 years+, 2014-2018]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018]' derivation='Sum' name='[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[High school graduate or higher, percent of persons age 25 years+, 2014-2018]' derivation='Sum' name='[sum:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='rows' value='10' />
+            <format attr='div-level' scope='cols' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]' />
+            </encodings>
+            <reference-line axis-column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]' enable-instant-analytics='true' formula='average' id='refline0' label-type='none' probability='95' scope='per-cell' value-column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]' z-order='2' />
+            <reference-line axis-column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]' enable-instant-analytics='true' fill-above='true' fill-below='true' formula='average' id='refline1' label-type='none' percentage-bands='true' probability='95' scope='per-cell' symmetric='false' value-column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:High school graduate or higher, percent of persons age 25 years+, 2014-2018:qk]' z-order='1'>
+              <reference-line-value percentage='60' />
+              <reference-line-value percentage='80' />
+            </reference-line>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Bachelor&apos;s degree or higher, percent of persons age 25 years+, 2014-2018:qk]</rows>
+        <cols>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]</cols>
+      </table>
+      <simple-id uuid='{BE3F6083-5A99-4B37-867A-D7F3AC0A7965}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Demograpics_modified (Dataset_demographic)' name='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq'>
+            <column datatype='string' name='[0]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Persons in poverty, percent]' role='measure' type='quantitative' />
+            <column-instance column='[0]' derivation='None' name='[none:0:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Persons in poverty, percent]' derivation='Sum' name='[sum:Persons in poverty, percent:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:0:nk]' member='&quot;Los Angeles&quot;' />
+              <groupfilter function='member' level='[none:0:nk]' member='&quot;New York&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Persons in poverty, percent:qk]' />
+              <text column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]' />
+              <color column='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{288C6F62-7041-48B2-B843-24BAEE16E4F8}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='13' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='5' type='layout-basic' w='98400' x='800' y='1000'>
+                <zone h='49000' id='3' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='10' name='Sheet 3' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='49000' id='9' name='Sheet 2' w='49200' x='800' y='50000'>
+                  <layout-cache cell-count-w='21' minheight='367' non-cell-size-w='65' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='22' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Sheet 2' w='49200' x='800' y='50000'>
+                  <layout-cache cell-count-w='21' minheight='367' non-cell-size-w='65' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='10' is-fixed='true' name='Sheet 3' w='49200' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CFF3BE68-63CC-42DD-BAE2-10D57B3100B4}' />
+    </dashboard>
+    <dashboard name='Dashboard 2'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='55000' id='3' name='Sheet 4' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='43000' id='13' name='Sheet 7' w='82400' x='800' y='56000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='2750' id='8' name='Sheet 4' pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='2750' id='12' name='Sheet 6' pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Household Size:qk]' type='color' w='16000' x='83200' y='3750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='92500' id='11' name='Sheet 6' w='16000' x='83200' y='6500'>
+                <layout-cache fixed-size-w='115' minheight='291' type-h='scalable' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='22' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='55000' id='3' is-fixed='true' name='Sheet 4' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='15750' id='8' name='Sheet 4' pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='74125' id='11' is-fixed='true' name='Sheet 6' w='16000' x='83200' y='24875'>
+                  <layout-cache fixed-size-w='115' minheight='291' type-h='scalable' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8125' id='12' name='Sheet 6' pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Household Size:qk]' type='color' w='16000' x='83200' y='16750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43000' id='13' is-fixed='true' name='Sheet 7' w='82400' x='800' y='56000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{8A199FFF-4047-4F42-8B18-8F9DB58DDDF2}' />
+    </dashboard>
+    <dashboard name='Dashboard 3'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CCDC153A-0D69-4F53-A701-C3CF04989F70}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 3'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{33176CEC-646F-464B-AF4C-49AA81DE5573}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 6' />
+        <viewpoint name='Sheet 7'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{C62A9443-BD2E-4A55-910B-1D22B5C8F235}' />
+    </window>
+    <window class='dashboard' name='Dashboard 3'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{FF5068D6-01B4-4D5B-AFB7-1600AB3DBD05}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F387C552-DB68-4834-871B-D445F694917B}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C45B59CC-9C36-4242-9F3C-7D3C190B9212}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{913AEB43-5C32-4873-B08C-6177F61D8243}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8872C77C-F539-42D0-BF11-AB0B9401445B}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Married Population:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{97C818E0-873C-462F-A588-4683CDB006BD}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[sum:Household Size:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EF0EBEE9-A2F0-487C-B597-D86A1A1D8ECB}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FE92050F-FB25-4A9E-8EA4-8865C60FF383}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{86FB0BD6-CCA0-4939-9D03-30EC15068200}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7EDB84ED-ABB0-400F-8D36-6FACD385DF15}' />
+    </window>
+    <window class='worksheet' name='Sheet 10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[attr:Single Population:qk]' type='size' />
+            <card pane-specification-id='0' param='[federated.0uuyu6k1k0k8ed1d3w4de1m0kdsq].[none:0:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0552A9AA-68A8-4083-B62E-B9E9CFDE6005}' />
+    </window>
+  </windows>
+</workbook>

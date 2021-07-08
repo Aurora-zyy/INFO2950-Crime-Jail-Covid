@@ -1,0 +1,17 @@
+CLFSA = Civilian Labor Force - Seasonally Adjusted
+ELSA = Employment Level - Seasonally Adjusted
+ULSA = Unemployment Level - Seasonally Adjusted
+URSA = Unemployment Rate - Seasonally Adjusted
+CLFNSA = Civilian Labor Force - Not Seasonally Adjusted
+ELNSA = Employment Level - Not Seasonally Adjusted
+ULNSA = Unemployment Level - Not Seasonally Adjusted
+URNSA = Unemployment Rate - Not Seasonally Adjusted
+
+Source: U.S. Bureau of Labor Statistics (BLS).
+Link: https://www.bls.gov/regions/new-york-new-jersey/data/xg-tables/ro2xglausnyc.htm
+
+
+
+
+Other statistics: 
+https://www.bls.gov/sae/additional-resources/list-of-published-state-and-metropolitan-area-series/new-york.htm

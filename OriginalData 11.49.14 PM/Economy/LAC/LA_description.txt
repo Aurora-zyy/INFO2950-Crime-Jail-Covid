@@ -1,0 +1,18 @@
+Local Area Unemployment Statistics
+
+Series Id:              LAUMT063108000000006
+Not Seasonally Adjusted
+Area:                   Los Angeles-Long Beach-Anaheim, CA Metropolitan Statistical Area
+Area Type:              Metropolitan areas
+State/Region/Division:  California
+
+Source: https://data.bls.gov/pdq/SurveyOutputServlet
+
+Source：https://data.bls.gov/timeseries/LAUMT063108000000006?amp%253bdata_tool=XGtable&output_view=data&include_graphs=true
+
+
+
+
+Other Statistics:
+
+https://www.bls.gov/sae/additional-resources/list-of-published-state-and-metropolitan-area-series/california.htm
